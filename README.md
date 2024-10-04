@@ -41,8 +41,7 @@ To run the Interactive Creative Optimization Model locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/creative-optimization-model.git
    cd creative-optimization-model
-2. Requirements
-
+## Requirements
 	•	Python 3.7 or higher
 	•	Streamlit
 	•	NumPy
@@ -51,6 +50,6 @@ To run the Interactive Creative Optimization Model locally, follow these steps:
 	•	Altair
 	•	Scikit-learn
 	•	Plotly (for advanced visualizations)
-3. Run
+## Run
   ```bash
   python -m streamlit run app.py
