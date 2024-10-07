@@ -250,19 +250,19 @@ def main():
     rev_conv_test = st.sidebar.slider('Rev/Conv Test',
                                   min_value=parameter_ranges['rev_conv_test']['min'],
                                   max_value=parameter_ranges['rev_conv_test']['max'],
-                                  value=50,
+                                  value=55,
                                   step=parameter_ranges['rev_conv_test']['step'])
     #rev_conv_boost = st.sidebar.slider('Rev/Conv Boost', min_value=10, max_value=200, value=65, step=5)
     rev_conv_boost = st.sidebar.slider('Rev/Conv Boost',
                                   min_value=parameter_ranges['rev_conv_boost']['min'],
                                   max_value=parameter_ranges['rev_conv_boost']['max'],
-                                  value=50,
+                                  value=55,
                                   step=parameter_ranges['rev_conv_boost']['step'])
     #rev_conv_scale = st.sidebar.slider('Rev/Conv Scale', min_value=10, max_value=200, value=70, step=5)
     rev_conv_scale = st.sidebar.slider('Rev/Conv Scale',
                                   min_value=parameter_ranges['rev_conv_scale']['min'],
                                   max_value=parameter_ranges['rev_conv_scale']['max'],
-                                  value=50,
+                                  value=55,
                                   step=parameter_ranges['rev_conv_scale']['step'])
     #rev_conv_alpha = st.sidebar.slider('Rev/Conv Alpha', min_value=10, max_value=200, value=80, step=5)
     rev_conv_alpha = st.sidebar.slider('Rev/Conv Alpha',
