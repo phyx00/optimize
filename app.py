@@ -189,7 +189,7 @@ def main():
     romi_target = st.sidebar.slider('ROMI Target',
                                 min_value=parameter_ranges['romi_target']['min'],
                                 max_value=parameter_ranges['romi_target']['max'],
-                                value=0.3,
+                                value=0.1,
                                 step=parameter_ranges['romi_target']['step'])
     
     st.sidebar.subheader("Cost Per Acquisition (CPA)")
