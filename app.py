@@ -10,7 +10,7 @@ import altair as alt
 
 # Parameter ranges
 parameter_ranges = {
-    'budget': {'min': 100000, 'max': 1000000, 'step': 100000},
+    'budget': {'min': 100000, 'max': 2000000, 'step': 100000},
     'romi_target': {'min': 0.0, 'max': 2.0, 'step': 0.01},
     'cpa_test': {'min': 10, 'max': 100, 'step': 5},
     'cpa_boost': {'min': 10, 'max': 100, 'step': 5},
