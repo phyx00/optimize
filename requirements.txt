@@ -1,7 +1,7 @@
-streamlit==1.25.0
-numpy==1.24.3
-pandas==2.0.3
-pulp==2.7.0
-altair==5.0.1
-scikit-learn==1.3.0
-plotly==5.15.0
+streamlit
+numpy
+pandas
+pulp
+altair
+scikit-learn
+plotly
