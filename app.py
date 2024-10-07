@@ -19,7 +19,7 @@ parameter_ranges = {
     'conv_test': {'min': 1, 'max': 50, 'step': 1},
     'conv_boost': {'min': 1, 'max': 100, 'step': 5},
     'conv_scale': {'min': 10, 'max': 1000, 'step': 10},
-    'conv_alpha': {'min': 100, 'max': 1000, 'step': 10},
+    'conv_alpha': {'min': 100, 'max': 2000, 'step': 10},
     'rev_conv_test': {'min': 10, 'max': 100, 'step': 5},
     'rev_conv_boost': {'min': 10, 'max': 100, 'step': 5},
     'rev_conv_scale': {'min': 10, 'max': 100, 'step': 5},
