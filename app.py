@@ -483,7 +483,7 @@ def main():
             
             # Plotting
             st.subheader(f'ROMI vs. {parameter_to_vary}')
-            line_chart = alt.Chart(heatmap_df).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white").encode(
+            line_chart = alt.Chart(heatmap_df).mark_line(point=alt.OverlayMarkDef(filled=False, fill="white")).encode(
                 x=parameter_to_vary,
                 y='ROMI'
             )
