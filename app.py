@@ -220,26 +220,26 @@ def main():
     
     st.sidebar.subheader("Conversions per Creative")
     #conv_test = st.sidebar.slider('Conv Test', min_value=10, max_value=1000, value=100, step=10)
-    conv_test = st.sidebar.slider('# of Conv Test',
+    conv_test = st.sidebar.slider('N of Conv Test',
                               min_value=parameter_ranges['conv_test']['min'],
                               max_value=parameter_ranges['conv_test']['max'],
                               value=5,
                               step=parameter_ranges['conv_test']['step'])
     
     #conv_boost = st.sidebar.slider('Conv Boost', min_value=10, max_value=2000, value=150, step=10)
-    conv_boost = st.sidebar.slider('# of Conv Boost',
+    conv_boost = st.sidebar.slider('N of Conv Boost',
                               min_value=parameter_ranges['conv_boost']['min'],
                               max_value=parameter_ranges['conv_boost']['max'],
                               value=10,
                               step=parameter_ranges['conv_boost']['step'])
     #conv_scale = st.sidebar.slider('Conv Scale', min_value=10, max_value=3000, value=200, step=10)
-    conv_scale = st.sidebar.slider('# of Conv Scale',
+    conv_scale = st.sidebar.slider('N of Conv Scale',
                               min_value=parameter_ranges['conv_scale']['min'],
                               max_value=parameter_ranges['conv_scale']['max'],
                               value=150,
                               step=parameter_ranges['conv_scale']['step'])
     #conv_alpha = st.sidebar.slider('Conv Alpha', min_value=10, max_value=4000, value=300, step=10)
-    conv_alpha = st.sidebar.slider('# of Conv Alpha',
+    conv_alpha = st.sidebar.slider('N of Conv Alpha',
                               min_value=parameter_ranges['conv_alpha']['min'],
                               max_value=parameter_ranges['conv_alpha']['max'],
                               value=500,
