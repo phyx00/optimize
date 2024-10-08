@@ -220,7 +220,7 @@ def main():
     
     st.sidebar.subheader("Conversions per Creative")
     #conv_test = st.sidebar.slider('Conv Test', min_value=10, max_value=1000, value=100, step=10)
-    conv_test = st.sidebar.slider('Conv Test',
+    conv_test = st.sidebar.slider('# of Conv Test',
                               min_value=parameter_ranges['conv_test']['min'],
                               max_value=parameter_ranges['conv_test']['max'],
                               value=5,
